@@ -12,7 +12,7 @@ describe('scoping', function () {
     }
 
     Module.prototype.method = function() {
-      return this.foo;
+      return this.mod.foo;;
     };
 
     Module.prototype.req = function() {
